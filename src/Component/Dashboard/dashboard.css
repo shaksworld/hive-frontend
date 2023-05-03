@@ -1,6 +1,5 @@
 .dashboard-container{
   width: 1440px;
-  /* height: 1126px; */
   height: 400vh;
   position: relative;
   background-color: rgba(242, 244, 247, 1);
@@ -57,7 +56,6 @@
 
   /************ adding new page******/
   .dashboard-job{
-    /* display: flex; */
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
@@ -100,12 +98,10 @@
     align-items: flex-start;
     background: inherit;
     background: #F2F4F7;
-    /* padding: 20px; */
     gap: 16px;
     position: absolute;
     width: 1220px;
     height: auto;
-    /* height: 345px; */
     left: 0px;
     top: 67px;
   }
@@ -175,7 +171,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    /* gap: 8px; */
     width: 348px;
   }  
 

@@ -18,11 +18,6 @@ function ButtonDefault() {
                 View Task
         </button>
 
-        {/* <Modal open={openModal} onClose={() => setOpenModal(false)}/> */}
-
-        {/* {openModal && <Modal closeModel={() => setOpenModal(false)}/>} */}
-
-        {/* {openModal && <Modal closeModal={setOpenModal}/>} */}
         {openModal && <Modal setOpenModal={setOpenModal} />}
     </div>
     );
